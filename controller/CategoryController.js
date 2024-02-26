@@ -105,7 +105,8 @@ exports.initKafka = async () => {
                     console.log('카테고리 파티션 3');
                     deleteCategories(values);
                 }
-            } else {    //해시태그
+            } else {
+                //해시태그
                 console.log('----------------------해시태그----------------------');
                 if(partition == 0) {
                     console.log('해시태그 파티션 1');
